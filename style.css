@@ -1,20 +1,14 @@
-.banner{
-    width: 100%;
-    height: 605px;
-    background-image: url('../trilha-css-desafio-01/assets/images/banner.png');
+img{
+    margin: auto;
+    display: block;
 }
 
-.logo{
-    width: 510px;
-    height: 393px;  
-    margin-top: 56px;
-    margin-left: 600px;
-    gap: 16px
-}
-h1, p {
-    text-align: center;
+h1, h2, p{
+    display: flex;
+    justify-content: center;
 }
 
-button{
-    
+.module {
+    display: flex;
+    justify-content: center;
 }
