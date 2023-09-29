@@ -1,0 +1,103 @@
+@import url('reset.css');
+
+
+body {
+    background-color: black;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(49,168,221,.2), rgba(0,0,0,.6)), url('/assets/images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    height: 600px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+p {
+    color: white;
+}
+
+.banner .banner-content {
+    margin: auto;
+    height: 600px;
+    text-align: center;
+}
+.banner .logo {
+    background-color: rgba(0,0,0,.2);
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 16px;
+    padding: 16px;
+    width: 260px;
+    height: 260px;
+}
+
+.banner .logo img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+
+.banner h1 {
+    text-transform: uppercase;
+    color: transparent;
+    font-size: 2.5rem;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h1 {
+    display:block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.banner p {
+    font-size: 1.25em;
+    margin: 16px 0 24px;
+}
+
+.banner .banner-content button {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#33A8DD;
+    background-color: transparent;
+    border: 1.6px solid #33A8DD;
+    padding: 16px 32px;
+    border-image: linear-grandient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
+
+.banner .banner-content .button {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin: 100px auto;
+}
+
+#course-content {
+    text-align: center;
+    width: 800px;
+}
+
+h2 {
+    color:#33A8DB;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+
