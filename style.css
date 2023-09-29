@@ -6,7 +6,7 @@ body {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(49,168,221,.2), rgba(0,0,0,.6)), url('/assets/images/banner.png');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(49,168,221,.2), rgba(0,0,0,.6)), url('images/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 60px;
@@ -130,7 +130,7 @@ h2 {
 }
 
 #transform-world {
-    background-image: url('/assets/images/woman-code.png');
+    background-image: url('images/woman-code.png');
     background-size: cover;
     background-attachment: fixed;
     height: 560px;
