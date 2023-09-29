@@ -101,3 +101,66 @@ h2 {
     margin-bottom: 24px;
 }
 
+#course-content .modules-list{
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module span{
+    color: #33A8DB; 
+}
+
+#course-content .modules-list .module{
+    color: white;
+    width: 530px;
+    border: 1px solid #3BA1CD;
+    background-color: #252525;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#transform-world p {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: lowercase;
+    max-width: 250px;    
+    text-shadow: 3px 2px #33A8DB;
+}
+
+#transform-world {
+    background-image: url('/assets/images/woman-code.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 560px;
+    padding: 200px;
+}
+
+#professional-challenges {
+    width: 800px;
+    text-align: center;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
+}
+
+footer{
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(49,168,221,.2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 1px solid #33A8DB80;
+}
+
+footer .dio-logo{
+    width: 300px;
+}
+
+footer img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
